@@ -8,3 +8,5 @@ azure-mgmt-resource
 azure-identity
 azure-storage-blob
 azure-mgmt-web
+azure-compute
+azure-network
