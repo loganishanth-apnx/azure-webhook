@@ -138,7 +138,7 @@ def HttpTrigger(req: func.HttpRequest) -> func.HttpResponse:
                 import winrm
 
                 host = str(public_ip_address.ip_address)
-                user = os.environ["USERNAME"]
+                user = os.environ["USER"]
                 password = os.environ["PASSWORD"]
 
                 try:
